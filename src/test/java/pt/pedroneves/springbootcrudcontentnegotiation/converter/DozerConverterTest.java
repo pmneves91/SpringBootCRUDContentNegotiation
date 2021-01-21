@@ -1,11 +1,11 @@
-package pt.pedroneves.springbootcrudvalueobject.converter;
+package pt.pedroneves.springbootcrudcontentnegotiation.converter;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import pt.pedroneves.springbootcrudvalueobject.converter.mocks.MockPerson;
-import pt.pedroneves.springbootcrudvalueobject.data.model.Person;
-import pt.pedroneves.springbootcrudvalueobject.data.vo.PersonVO;
+import pt.pedroneves.springbootcrudcontentnegotiation.converter.mocks.MockPerson;
+import pt.pedroneves.springbootcrudcontentnegotiation.data.model.Person;
+import pt.pedroneves.springbootcrudcontentnegotiation.data.vo.PersonVO;
 
 import java.util.List;
 

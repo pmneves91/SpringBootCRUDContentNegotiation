@@ -1,4 +1,4 @@
-package pt.pedroneves.springbootcrudvalueobject.exception;
+package pt.pedroneves.springbootcrudcontentnegotiation.exception;
 
 import java.io.Serializable;
 import java.util.Date;

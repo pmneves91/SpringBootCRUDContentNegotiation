@@ -1,4 +1,4 @@
-package pt.pedroneves.springbootcrudvalueobject.converter;
+package pt.pedroneves.springbootcrudcontentnegotiation.converter;
 
 import com.github.dozermapper.core.DozerBeanMapperBuilder;
 import com.github.dozermapper.core.Mapper;

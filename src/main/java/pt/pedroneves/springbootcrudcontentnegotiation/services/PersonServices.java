@@ -1,12 +1,12 @@
-package pt.pedroneves.springbootcrudvalueobject.services;
+package pt.pedroneves.springbootcrudcontentnegotiation.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pt.pedroneves.springbootcrudvalueobject.converter.DozerConverter;
-import pt.pedroneves.springbootcrudvalueobject.data.model.Person;
-import pt.pedroneves.springbootcrudvalueobject.data.vo.PersonVO;
-import pt.pedroneves.springbootcrudvalueobject.exception.ResourceNotFoundException;
-import pt.pedroneves.springbootcrudvalueobject.repository.PersonRepository;
+import pt.pedroneves.springbootcrudcontentnegotiation.converter.DozerConverter;
+import pt.pedroneves.springbootcrudcontentnegotiation.data.model.Person;
+import pt.pedroneves.springbootcrudcontentnegotiation.data.vo.PersonVO;
+import pt.pedroneves.springbootcrudcontentnegotiation.exception.ResourceNotFoundException;
+import pt.pedroneves.springbootcrudcontentnegotiation.repository.PersonRepository;
 
 import java.util.List;
 

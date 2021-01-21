@@ -1,4 +1,4 @@
-package pt.pedroneves.springbootcrudvalueobject.data.vo;
+package pt.pedroneves.springbootcrudcontentnegotiation.data.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

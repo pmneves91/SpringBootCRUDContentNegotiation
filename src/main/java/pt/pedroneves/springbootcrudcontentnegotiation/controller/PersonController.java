@@ -1,9 +1,9 @@
-package pt.pedroneves.springbootcrudvalueobject.controller;
+package pt.pedroneves.springbootcrudcontentnegotiation.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import pt.pedroneves.springbootcrudvalueobject.data.vo.PersonVO;
-import pt.pedroneves.springbootcrudvalueobject.services.PersonServices;
+import pt.pedroneves.springbootcrudcontentnegotiation.data.vo.PersonVO;
+import pt.pedroneves.springbootcrudcontentnegotiation.services.PersonServices;
 
 import java.util.List;
 
@@ -14,22 +14,24 @@ public class PersonController {
     @Autowired
     private PersonServices services;
 
-    @GetMapping
+    @GetMapping(produces = { "application/json", "application/xml" })
     public List<PersonVO> findAll() {
         return services.findAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping(value = "/{id}", produces = { "application/json", "application/xml" })
     public PersonVO findById(@PathVariable("id") Long id) {
         return services.findById(id);
     }
 
-    @PostMapping
+    @PostMapping(produces = { "application/json", "application/xml" },
+            consumes = { "application/json", "application/xml" })
     public PersonVO create(@RequestBody PersonVO person) {
         return services.create(person);
     }
 
-    @PutMapping
+    @PutMapping(produces = { "application/json", "application/xml" },
+            consumes = { "application/json", "application/xml" })
     public PersonVO update(@RequestBody PersonVO person) {
         return services.update(person);
     }

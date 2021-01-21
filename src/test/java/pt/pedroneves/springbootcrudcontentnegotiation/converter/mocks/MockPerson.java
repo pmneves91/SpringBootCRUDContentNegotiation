@@ -1,7 +1,7 @@
-package pt.pedroneves.springbootcrudvalueobject.converter.mocks;
+package pt.pedroneves.springbootcrudcontentnegotiation.converter.mocks;
 
-import pt.pedroneves.springbootcrudvalueobject.data.model.Person;
-import pt.pedroneves.springbootcrudvalueobject.data.vo.PersonVO;
+import pt.pedroneves.springbootcrudcontentnegotiation.data.model.Person;
+import pt.pedroneves.springbootcrudcontentnegotiation.data.vo.PersonVO;
 
 import java.util.ArrayList;
 import java.util.List;
